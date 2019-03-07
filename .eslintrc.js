@@ -19,19 +19,19 @@ module.exports = {
 
     // options to emulate prettier setup
     semi: ['error', 'always'],
-    'max-len': ['error', { code: 80 }],
+    // 'max-len': ['error', { code: 80 }],
     'template-curly-spacing': ['error', 'never'],
     'arrow-parens': ['error', 'as-needed'],
 
     // standard.js
-    'space-before-function-paren': [
-      'error',
-      {
-        named: 'never',
-        anonymous: 'never',
-        asyncArrow: 'never'
-      }
-    ],
+    // 'space-before-function-paren': [
+    //   'error',
+    //   {
+    //     named: 'never',
+    //     anonymous: 'never',
+    //     asyncArrow: 'never'
+    //   }
+    // ],
 
     // standard plugin - options
     'standard/object-curly-even-spacing': ['error', 'either'],
